@@ -53,18 +53,18 @@
 
         <h2>Contact Us</h2>
 
-        <form>
+        <form action="contact.php" method="POST">
             <div class="mb-3">
                 <div class="row g-3">
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        <input type="text" class="form-control" name="fname" placeholder="First name" >
                     </div>
                     <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        <input type="text" class="form-control" name="lname" placeholder="Last name">
                     </div>
                 </div>
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <input type="email" class="form-control" name="email" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <select class="form-select" aria-label="Default select example">

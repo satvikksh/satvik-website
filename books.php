@@ -24,16 +24,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
                     </li>
 
 
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">Diploma CS</a>
+                        <a class="nav-link" href="about.php">Diploma CS</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link active" href="books.html">Books</a>
+                        <a class="nav-link active" href="books.php">Books</a>
                     </li>
 
                 </ul>
@@ -124,7 +124,7 @@
 
         <footer class="container">
             <p class="float-end"><a href="#">Back to top</a></p>
-            <p>© 2021–2022 Satvik's Compney, Inc. · <a href="privacy.html">Privacy</a> · <a href="#">Terms</a></p>
+            <p>© 2021–2022 Satvik's Compney, Inc. · <a href="privacy.php">Privacy</a> · <a href="#">Terms</a></p>
         </footer>
     
 

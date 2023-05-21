@@ -24,21 +24,21 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
                     </li>
 
 
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">Diploma CS</a>
+                        <a class="nav-link" href="about.php">Diploma CS</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="sem2.html">Semester 2nd</a>
+                        <a class="nav-link" href="sem2.php">Semester 2nd</a>
                     </li>
 
                     
                     <li class="nav-item">
-                        <a class="nav-link active" href="sub.html">Assignment</a>
+                        <a class="nav-link active" href="sub.php">Assignment</a>
                     </li>
 
                 </ul>
@@ -67,7 +67,7 @@
             </div>
 
             <div class="col-md-5">
-                <a href="cprog.html" target="">
+                <a href="cprog.php" target="">
                     <img class="img-fluid" src="c.png" alt="">
                 </a>
             </div>
@@ -84,7 +84,7 @@
 
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <a href="assindt.html">
+                    <a href="assindt.php">
                     <img class="img-fluid" src="dt.jpg" alt="">
                 </a>
                 </div>
@@ -101,7 +101,7 @@
         
                 </div>
                 <div class="col-md-5">
-                    <a href="beem.html" target="">
+                    <a href="beem.php" target="">
                         <img class="img-fluid" src="beem.jpg" alt="">
                     </a>
                 </div>
@@ -118,7 +118,7 @@
         
                 </div>
                 <div class="col-md-5">
-                    <a href="ees.html" target="">
+                    <a href="ees.php" target="">
                         <img class="img-fluid" src="ees.png" alt="">
                     </a>
                 </div>
@@ -128,7 +128,7 @@
         
     <footer class="container">
         <p class="float-end"><a href="#">Back to top</a></p>
-        <p>© 2021–2022 Satvik's Compney, Inc. · <a href="privacy.html">Privacy</a> · <a href="#">Terms</a></p>
+        <p>© 2021–2022 Satvik's Compney, Inc. · <a href="privacy.php">Privacy</a> · <a href="#">Terms</a></p>
     </footer>
 
 </body>

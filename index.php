@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="sk.jpeg">Satvik</a>
+            <a class="navbar-brand" href="aform.php">Satvik</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -28,7 +28,7 @@
 
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -37,12 +37,12 @@
                             Diploma
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="about.html">Diploma CS</a></li>
+                            <li><a class="dropdown-item" href="about.php">Diploma CS</a></li>
                             <li><a class="dropdown-item" href="#">Diploma EE</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gitcontact.html">Contact Us</a>
+                    <li itemprop="name">
+                        <a class="nav-link" href="contect.php">Contact Us</a>
                     </li>
 
 
@@ -80,10 +80,10 @@
             </div>
         </div>
     </nav>
-
-
+    
 
     <!-- Login Modal -->
+    <form method="post" action="login.php">
     <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -95,22 +95,22 @@
                 </div>
                 <div class="modal-body">
 
-                    <input type="email" id="loginName" class="form-control" required />
-                    <label class="form-label" for="loginName">Email or username</label>
-
-                    <input type="password" id="loginPassword" class="form-control" required/>
-                    <label class="form-label" for="loginPassword">Password</label>
+                <label for="username">Username:</label>
+                 <input type="text" name="username" id="username" required><br>
+                 <label for="password">Password:</label>
+                 <input type="password" name="password" id="password" required><br>
+                
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary"><input type="submit" value="Log in"></button>
                 </div>
             </div>
         </div>
     </div>
-
+</form>
     <!-- SignUP Modal -->
+    <form method="POST" action="data.php">
     <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -125,42 +125,31 @@
 
 
 
-                <!-- Name input -->
-                <div class="form-outline mb-4">
-                    <input type="text" id="registerName" class="form-control" required/>
-                    <label class="form-label" for="registerName">Name</label>
+              
+              
+  <label for="name">Name:</label>
+  <input type="text" name="name" id="name" required><br>
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email" required><br>
+  <label for="username">Username:</label>
+  <input type="text" name="username" id="username" required><br>
+  <label for="password">Password:</label>
+  <input type="password" name="password" id="password" required><br>
 
-                </div>
+  
 
 
-                <!-- Username input -->
-                <div class="form-outline mb-4">
-                    <input type="text" id="registerUsername" class="form-control"required />
-                    <label class="form-label" for="registerUsername">Username</label>
-                </div>
-
-                <!-- Email input -->
-                <div class="form-outline mb-4">
-                    <input type="email" id="registerEmail" class="form-control" required/>
-                    <label class="form-label" for="registerEmail">Email</label>
-                </div>
-
-                <!-- Password input -->
-                <div class="form-outline mb-4">
-                    <input type="password" id="registerPassword" class="form-control" required/>
-                    <label class="form-label" for="registerPassword">Password</label>
-                </div>
 
 
 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="submit" class="btn btn-primary"><input type="submit" value="Sign Up"></button>
                 </div>
             </div>
         </div>
     </div>
-
+    </form>
 
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">
@@ -209,9 +198,9 @@
                 <img src="https://source.unsplash.com/1400x400/?code,macbook" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Welcome to Satvik's website</h5>
-                    <p>
+                    
                     <p>There has available all imprtant elements</p>
-                    </p>
+                    
 
                     <button> <a class="btn btn-danger" href="https://www.facebook.com/satvik.ksh" target="_blank">
                             Facebook
@@ -238,10 +227,10 @@
                         <p class="card-text mb-auto">There has available all important Books related for your cource,
                             so please check out the Books.</p>
                         read out.
-                        <a href="books.html" class="-link">Click Hear!</a>
+                        <a href="books.php" class="-link">Click Hear!</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
-                        <a href="books.html" class="-link">
+                        <a href="books.php" class="-link">
                             <img class="bd-placeholder-img" width="250" height="250" src="img/book.jpg" alt="">
                         </a>
                     </div>

@@ -1,4 +1,4 @@
-<!-- semester 1 subject environment -->
+<!-- semester 2nd DT subject -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,23 +26,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
                     </li>
 
 
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">Diploma CS</a>
+                        <a class="nav-link" href="about.php">Diploma CS</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="sem1.html">Semester 1st</a>
+                        <a class="nav-link" href="sem2.php">Semester 2nd</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sub1.html">Subjects</a>
+                        <a class="nav-link" href="sub2.php">Subjects</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="notes.html">Units</a>
+                        <a class="nav-link active" href="dt.php">Units</a>
                     </li>
 
                 </ul>
@@ -70,7 +70,7 @@
 
             </div>
             <div class="col-md-3">
-                <a href="aa.pdf" target="_blank">
+                <a href="dt" target="_blank">
                     <img class="img-fluid" src="unit1.jpg" alt="">
                 </a>
             </div>
@@ -101,7 +101,7 @@
 
             </div>
             <div class="col-md-7">
-                <a href="#" target="">
+                <a href="" target="">
                     <img class="img-fluid" src="unit3.png" alt="">
                 </a>
             </div>
@@ -130,12 +130,13 @@
 
                 </div>
                 <div class="col-md-4">
-                    <a href="#" target="">
+                    <a href="" target="">
                         <img class="img-fluid" src="unit5.png" alt="">
                     </a>
                 </div>
 
             </div>
+
 
 
             <footer class="container">

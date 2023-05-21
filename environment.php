@@ -1,4 +1,4 @@
-<!-- assignment DT -->
+<!-- semester 1 subject environment -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,7 +26,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.php">Home</a>
                     </li>
 
 
@@ -35,14 +35,14 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="sem2.html">Semester 2nd</a>
+                        <a class="nav-link" href="sem1.html">Semester 1st</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="sub.html">Assignment</a>
+                        <a class="nav-link" href="sub1.html">Subjects</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="ees.html">DT</a>
+                        <a class="nav-link active" href="notes.html">Units</a>
                     </li>
 
                 </ul>
@@ -63,14 +63,14 @@
             <div class="col-md-5">
                 <h2 class="featurette-heading">Unit 1!<span class="text-muted">
                     </span></h2>
-                <p class="lead">There has complete assignment avaliable.
+                <p class="lead">There has complete notes avaliable.
 
                 <h4>Check out! HEAR 👉👉 click on the icon.</h4>
                 </p>
 
             </div>
             <div class="col-md-3">
-                <a href="" target="">Not avaliable
+                <a href="aa.pdf" target="_blank">
                     <img class="img-fluid" src="unit1.jpg" alt="">
                 </a>
             </div>
@@ -86,9 +86,7 @@
 
             </div>
             <div class="col-md-3 oredr-md-1">
-                <a href="" target="">Not avaliable
                 <img class="img-fluid" src="unit2.jpg" alt="">
-                </a>
             </div>
         </div>
 
@@ -96,14 +94,14 @@
             <div class="col-md-5">
                 <h2 class="featurette-heading">Unit 3! <span class="text-muted">
                     </span></h2>
-                <p class="lead">There has complete assignment available.
+                <p class="lead">There has complete file available.
 
                 <h4>Check out! HEAR 👉👉 click on the icon. </h4>
                 </p>
 
             </div>
             <div class="col-md-7">
-                <a href="" target="">Not avaliable
+                <a href="#" target="">
                     <img class="img-fluid" src="unit3.png" alt="">
                 </a>
             </div>
@@ -118,23 +116,21 @@
 
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <a href="" target=""> Not avaliable      
                     <img class="img-fluid" src="unit4.png" alt="">
-                    </a>
                 </div>
             </div>
             <div class="row featurette d-flax justify-content-center align-items-center">
                 <div class="col-md-6">
                     <h2 class="featurette-heading">Unit 5! <span class="text-muted">
                         </span></h2>
-                    <p class="lead">There has complete assignment available.
+                    <p class="lead">There has complete file available.
 
                     <h4>Check out! HEAR 👉👉 click on the icon. </h4>
                     </p>
 
                 </div>
                 <div class="col-md-4">
-                    <a href="" target="">Not avaliable
+                    <a href="#" target="">
                         <img class="img-fluid" src="unit5.png" alt="">
                     </a>
                 </div>
@@ -142,11 +138,11 @@
             </div>
 
 
-            
-    <footer class="container">
-        <p class="float-end"><a href="#">Back to top</a></p>
-        <p>© 2021–2022 Satvik's Compney, Inc. · <a href="privacy.html">Privacy</a> · <a href="#">Terms</a></p>
-    </footer>
+            <footer class="container">
+                <p class="float-end"><a href="#">Back to top</a></p>
+                <p>© 2021–2022 Satvik's Compney, Inc. · <a href="privacy.html">Privacy</a> · <a href="#">Terms</a></p>
+            </footer>
+        
 
 </body>
 
