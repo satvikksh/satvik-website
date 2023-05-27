@@ -21,7 +21,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="aform.php">Satvik</a>
+            <a class="navbar-brand" href="aform.php"><?php  echo 'Welcome'.' '. $a=$_POST["name"];?> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -77,83 +77,13 @@
                 </form>
                 <div class="mx-2">
                     <button type="button" class="btn btn-danger" data-bs-toggle="modal"
-                        data-bs-target="#loginModal">Login</button>
-                    <button type="button" class="btn btn-danger" data-bs-toggle="modal"
-                        data-bs-target="#signupModal">SignUP</button>
+                        data-bs-target="#loginModal"><a href="index.php">.</a> Logout</button>
+                 
                 </div>
             </div>
         </div>
     </nav>
     
-
-    <!-- Login Modal -->
-    <form method="post" action="login.php">
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="loginModalLabel">Login</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                <label for="username">Username:</label>
-                 <input type="text" name="username" id="username" required><br>
-                 <label for="password">Password:</label>
-                 <input type="password" name="password" id="password" required><br>
-                
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary"><input type="submit" value="Log in"></button>
-                </div>
-            </div>
-        </div>
-    </div>
-</form>
-    <!-- SignUP Modal -->
-    <form method="POST" action="data.php">
-    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="signupModalLabel">SignUP</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                </div>
-
-
-
-              
-              
-  <label for="name">Name:</label>
-  <input type="text" name="name" id="name" required><br>
-  <label for="email">Email:</label>
-  <input type="email" name="email" id="email" required><br>
-  <label for="username">Username:</label>
-  <input type="text" name="username" id="username" required><br>
-  <label for="password">Password:</label>
-  <input type="password" name="password" id="password" required><br>
-
-  
-
-
-
-
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary"><input type="submit" value="Sign Up"></button>
-                </div>
-            </div>
-        </div>
-    </div>
-    </form>
 
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-indicators">

@@ -1,34 +1,33 @@
 <?php
-// Assuming you have a user database with a "users" table
-// and the columns "username" and "password"
+// login.php
 
-// Check if the form is submitted
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Retrieve the form inputs
-    $username = $_POST['root'];
-    $password = $_POST[''];
+// Retrieve the submitted username and password
+$username = $_POST="root";
+$password = $_POST="";
 
-    // Perform any necessary validation or sanitation on the input
+// Connect to the database
+$servername = "localhost";
+$dbusername = "your_db_username";
+$dbpassword = "your_db_password";
+$dbname = "mydb";
 
-    // Connect to your database
-    $db = new PDO('mysql:host=localhost;dbname=mydb', 'satvik', 'satvik');
-
-    // Prepare the SQL statement
-    $stmt = $db->prepare('SELECT * FROM Satvikk WHERE username = ?');
-    $stmt->execute([$username]);
-
-    // Fetch the user record
-    $user = $stmt->fetch();
-
-    if ($user && password_verify($password, $user['password'])) {
-        // Username and password match
-        // Start a session or set cookies to authenticate the user
-        // Redirect the user to the logged-in page
-        header('Location: logged_in.php');
-        exit();
-    } else {
-        // Username or password is incorrect
-        $error = 'Invalid username or password.';
-    }
+$conn = new mysqli($servername, $dbname);
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
+
+// Validate the username and password
+$sql = "SELECT * FROM satvikk WHERE username = '$username' AND password = '$password'";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    // Authentication successful
+    echo "Login successful!";
+} else {
+    // Authentication failed
+    echo "Invalid username or password.";
+}
+
+// Close the database connection
+$conn->close();
 ?>

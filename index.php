@@ -31,26 +31,12 @@
                         <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Diploma
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="about.php">Diploma CS</a></li>
-                            <li><a class="dropdown-item" href="#">Diploma EE</a></li>
-                        </ul>
-                    </li>
+                
+                      
                     <li itemprop="name">
                         <a class="nav-link" href="contect.php">Contact Us</a>
                     </li>
 
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Check me!
-                        </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="syllabous.pdf" target="_blank">Syllabous</a></li>
                             <li><a class="dropdown-item" href="https://1drv.ms/u/s!AvpBRq-K-fpvgmUa9q6H6E-nBsn5" target="_blank">Time table</a></li>
